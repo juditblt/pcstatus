@@ -5,23 +5,15 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Devices Status</title>
+    <title>Dog</title>
 </head>
 <body>
-    <h1>Devices Status</h1>
+    <h1>DOG API</h1>
 
     <div id="app">
-
-        <animal-image></animal-image>
-
-        <hr>
-        @foreach($rooms as $room)
-            <room-view :id="{{ $room->id }}"></room-view>
-            <!-- Neve:  <br> -->
-        @endforeach
+        <advanced-animal></advanced-animal>
     </div>
 
-    <script src="{{ mix('/js/app.js') }}"></script>
+    <script src="/js/app.js"></script>
 </body>
 </html>
-

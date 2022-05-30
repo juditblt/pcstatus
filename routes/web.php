@@ -15,5 +15,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [RoomController::class, 'index']);
+Route::get('/dog', function () {
+    return view('dog');
+});
 
 
